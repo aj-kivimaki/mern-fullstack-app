@@ -4,6 +4,8 @@ import bookRoutes from "./routes/bookRoutes.js";
 import cors from "cors";
 import { PORT, mongoDbURL } from "./config.js";
 
+// const mongoDbURL = `mongodb+srv://${process.env.KEY}@cluster0.mtefec1.mongodb.net/?retryWrites=true&w=majority`;
+
 const app = express();
 
 app.use(express.json());
